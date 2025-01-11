@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+serif+Text:ital@0;1&display=swap');
+:root{
+    --primary-color: #016FB9;;
+    --secondary-color:#8fa1ae;
+    --accent1-color:#22AED1;
+    --accent2-color:#ff4d00;
+}
+
+@media screen and (max-width:1000px) {
+    #top{
+        grid-template-columns: 1fr;
+    }
+}
