@@ -231,6 +231,19 @@ grid-template-rows:auto auto ;
 border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 }
+.required{
+    color: var(--primary-color);
+
+
+}
+#credits .doner{
+    color: green;
+}
+
+#credits p{
+    text-align: center;
+    padding: 10px;
+}
 hr{
     height: 0.1px;
 }

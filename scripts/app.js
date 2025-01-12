@@ -9,21 +9,27 @@ const classCertifcation = [
     
     { name:"CSE 110",
       status: "done",
+      credit: 2,
     }, 
     { name:"CSE 111",
         status: "done",
+        credit: 2,
      }, 
       { name:"CSE 210",
-        status: "inprogress",
+        status: "done",
+        credit: 2,
       }, 
       { name:"WDD 130",
         status: "done",
+        credit: 2,
       }, 
       { name:"WDD 131",
         status: "done",
+        credit: 2,
       }, 
       { name:"WDD 231",
         status: "inprogress",
+        credit: 2,
       }, 
     ];
 
@@ -57,3 +63,13 @@ container.innerHTML = ""
     })
     displayCourse(newclass);
 });
+
+const creditCont = document.querySelector("#credits")
+
+let requiredcredit = classCertifcation.reduce((accumulator, currentValue )=> accumulator + currentValue.credit, 0)
+const doneclass = classCertifcation.filter((classe) =>{
+    return classe.status == "done";
+ })
+
+let donecredit = doneclass.reduce((accumulator, currentValue )=> accumulator + currentValue.credit, 0)
+creditCont.innerHTML = `<p>Required credits : <span class="required">${requiredcredit}</span> / Earned credits: <span class="doner">${donecredit}</span>`
