@@ -1,8 +1,8 @@
 :root{
-    --primary-color: #016FB9;;
+    --primary-color: #031961;
     --secondary-color:#8fa1ae;
-    --accent1-color:#22AED1;
-    --accent2-color:#ff4d00;
+    --accent1-color: #383a65;
+    --accent2-color:#ffffff;
 }
 
 
@@ -76,7 +76,7 @@ header,footer body{
 
 header{
     box-shadow: 0px 0px 2px ;
-    background-color:var(--primary-color);
+    background-color:#031961;
     text-align: center;
     width:100% ;
     font-family: 'Times New Roman', Times, serif;
@@ -97,7 +97,7 @@ header{
     display: block;
     font-size: 1.2rem;
     font-weight: bolder;
-    color: #eee;
+    color: #ffffff;
     text-decoration: none;
     padding: 20px;
 }
@@ -107,7 +107,7 @@ header{
 h1{
     padding-top: 20px;
     padding-bottom: 20px;
-    color: #eee;
+    color: white;
     font-size: larger;
 }
 .me{
@@ -117,7 +117,7 @@ h1{
 }
 
 main{
-    background-color: #eee;
+    background-color: #ffffff;
     display: grid;
     grid-template-columns: 1fr;
     
@@ -180,7 +180,7 @@ footer{
     padding: 10px;
     margin-right: 10px;
     background-color: rgb(56, 58, 101);
-    color: #8fa1ae;
+    color: white;
     border-radius: 0.6rem;
 
 }
@@ -209,7 +209,7 @@ button:hover{
     box-shadow: 0px 0px 2px black;
 }
 .head-card{
- background-color: #016FB9;
+ background-color:#031961;
  margin: 0;
  display: grid;
  place-items: center;
@@ -232,12 +232,19 @@ border-bottom-left-radius: 1rem;
 border-bottom-right-radius: 1rem;
 }
 .required{
-    color: var(--primary-color);
+    color: #8597FF;
+    background-color: black;
+    border-radius: 0.3rem;
+    padding: 5px;
 
 
 }
 #credits .doner{
-    color: green;
+    color: #A4FFA4;
+    background-color: black;
+    border-radius: 0.3rem;
+    padding: 5px;
+
 }
 
 #credits p{
@@ -264,7 +271,7 @@ justify-content: center;
  .me{
     width: 70px;
     border-radius: 50%;
-    border: 5px solid #eee;
+    border: 5px solid #ffffff;
     height: 70px;
     margin: 10px;
 
@@ -275,6 +282,7 @@ justify-content: center;
     font-family: "Pacifico", serif;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 0px 0px 4px black;
 }
 .para p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
