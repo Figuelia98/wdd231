@@ -1,6 +1,6 @@
 :root{
     --primary-color: #58A4B0;
-    --secondary-color:#373F51;
+    --secondary-color:black;
     --accent1-color: #A9BCD0;
     --accent2-color:#D8DBE2;
     --accent3-color:#1B1B1E;
@@ -132,7 +132,7 @@ h1{
 }
 
 footer{
-    background-color: var(--secondary-color);
+    background-color: black;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       justify-content: space-between;
@@ -174,7 +174,7 @@ footer{
   }
   .categories li a{
     text-decoration: none;
-    color: var(--primary-color);
+    color: #2C535A;
   }
   .search{
   border-radius: 1rem;
@@ -202,7 +202,7 @@ footer{
     text-align: center;
   }
   .search button{
-    background-color: var(--secondary-color);
+    background-color: black;
     color: var(--primary-color);
     font-weight: 700;
     border-top-right-radius: 0.5rem;
@@ -257,7 +257,7 @@ footer{
     text-decoration: none;
     font-size: medium;
     font-weight: 600;
-    color: var(--primary-color);
+    color:#2C535A;
   }
   .text{
     font-size: x-small;

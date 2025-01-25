@@ -1,10 +1,4 @@
-:root{
-    --primary-color: #58A4B0;
-    --secondary-color:#373F51;
-    --accent1-color: #A9BCD0;
-    --accent2-color:#D8DBE2;
-    --accent3-color:#1B1B1E;
-}
+
 
 @media screen and (max-width:1500px) {
   .business{

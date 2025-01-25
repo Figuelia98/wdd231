@@ -53,14 +53,14 @@ displaybusinesstype(businesstype);
 
 
 const mode = document.querySelector(".mode")
-document.querySelector(".h2").style.color = "#373F51";
-document.querySelector(".h22").style.color = "#373F51";
+document.querySelector(".h2").style.color = "black";
+document.querySelector(".h22").style.color = "black";
 mode.addEventListener("click", ()=>{
 //alert( document.querySelector("body").style.backgroundColor);
 if(document.querySelector("body").style.backgroundColor == "" ||document.querySelector("body").style.backgroundColor == "white"){
 document.querySelector("body").style.backgroundColor = "#373F51";
-document.querySelector(".h2").style.color = "#58A4B0";
-document.querySelector(".h22").style.color = "#58A4B0";
+document.querySelector(".h2").style.color = "#2C535A";
+document.querySelector(".h22").style.color = "#2C535A";
 }
 else{
 document.querySelector("body").style.backgroundColor = "white";
