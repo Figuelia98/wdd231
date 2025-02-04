@@ -7,16 +7,16 @@
     <meta name="description" content="WDD231:Chamber project by Figuelia Ya'Sin">
     <meta property="og:title" content="Chamber of commerce Madirez" />
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://figuelia98.github.io/wdd231/chamber/directory.html" />
+    <meta property="og:url" content="https://figuelia98.github.io/wdd231/chamber/index.html" />
     <meta property="og:image" content="https://www.office-du-tourisme-diego-suarez.com/wp-content/uploads/2024/06/Montagne-des-francais-Couverture_office-regional-du-tourisme-diego-suarez.webp" />
-    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/index.css">
     <link rel="stylesheet" href="styles/small.css">
     <link rel="icon" href="images/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
-    <script defer src="scripts/app.js"></script>
-    <title>Madirez | Directory</title>
+    <script defer src="scripts/apphome.js"></script>
+    <title>Madirez | Home </title>
 </head>
 <body>
     <header>
@@ -33,11 +33,11 @@
         <nav class="nav-menu">
             <ul>
                 <li>
-                    <a href="#">Home</a>
+                    <a href="index.html">Home</a>
                   
                 </li>
                 <li>
-                    <a href="#">Discover</a>
+                    <a href="discover.html">Discover</a>
                     
                 </li>
                 <li>
@@ -45,7 +45,7 @@
                 </li>
                 <li>
                     
-                    <a href="#">Join</a>
+                    <a href="join.html">Join</a>
                 </li>
                  <li>
                     <button class="mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
@@ -55,31 +55,50 @@
     </header>
     <main>
    <section class="top">
-    <h2 class="h2">Madirez Directory</h2>
-      <div class="search">
-         <select name="category" id="category">
-            <option value="" selected disabled>All</option>
-         </select>
-         <input type="search" name="search" id="search">
-         <button id="makesearch">Search</button>
-      </div>
+    <h2 class="current"></h2>
+        <div class="hero">
+            <div class="hero-head">MADIREZ Chamber of Commerce</div>
+            <img src="images/diego.jpg" alt="Diego Suarez: PAIN de SUCRE">
+            <a href="join.html">Become a member now!</a>
+        </div>
    </section>
    <section class="bottom">
-     
-      <div class="categories">
-      <h2 class="h22">Categories</h2>
-      <ul id="Linelist"> 
-        <li> <a href="#" id="Restaurants">Restaurants</a></li>
-        <li> <a href="#" id="Hotels">Hotels & Motels</a></li>
-        <li> <a href="#" id="Estate">Real Estate</a></li>
-        <li> <a href="#" id="Accomodation">Accomodation</a></li>
-      </ul>
-      </div>
-      <div class="business container">
+    <div class="weather">
 
-        
+        <div class="box">
+            <div class="head-box">
+                 <h2>Events</h2>
+            </div>
+            <div class="body-box">
 
-      </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="head-box">
+                 <h2>Current Weather</h2>
+                 <ul>
+                    <li ><span></span> <span id="temp"></span></li>
+                    <li ><span></span> <span id="sunrise"></span></li>
+                    <li ><span></span> <span id="sunset"></span></li>
+                 </ul>
+            </div>
+            <div class="body-box">
+
+            </div>
+        </div>
+
+        <div class="box">
+            <div class="head-box">
+                 <h2>Weather Forecast</h2>
+            </div>
+            <div class="body-box">
+
+            </div>
+        </div>
+    </div>
+    <div class="extrait">
+
+    </div>
    </section>
     </main>
     <footer>
