@@ -222,8 +222,6 @@ footer{
   }
   .buss{
     margin: 50px;
-    display: grid;
-    grid-template-rows: auto 60% auto;
     border-radius: 0.4rem;
     box-shadow: 0px 0px 3px black;
   }
@@ -249,9 +247,12 @@ footer{
     padding: 10px;
   }
   .foot ul {
-   display: flex;
+   display: grid;
    list-style: none;
-   justify-content: space-around;
+   grid-template-rows: 1fr;
+  }
+  .foot li{
+    margin-bottom: 10px;
   }
   .foot a{
     text-decoration: none;
@@ -261,6 +262,9 @@ footer{
   }
   .text{
     font-size: x-small;
+  }
+  .body{
+    height: 200px;
   }
   .body img{
     width: 100%;
@@ -283,3 +287,84 @@ footer{
   .socia ul li a:hover{
     opacity: 0.7;
   }
+
+  
+  /*Section HERO*/
+
+ .hero{
+   width: 80%;
+   margin: 0 auto;
+   padding: 50px;
+   border-radius: 1rem;
+   background-color: #daeff5;
+
+
+  }
+  .herohead{
+    font-size: 3vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2C535A;
+  }
+  .hero img{
+    margin: 0 auto;
+    width: 100%;
+    height: 50%;
+    border-radius: 1rem;
+  }
+  .hero a{
+    text-decoration: none;
+    background-color: #2e2e2e;
+    color: #c9f7ff;
+    padding: 20px;
+    border-radius: 1rem;
+    position: absolute;
+    box-shadow: 0px 0px 3px black;
+    right: 25%;
+    bottom: 30%;
+  }
+  .hero a:hover{
+   background-color:#c9f7ff;
+   font-weight: bolder;
+   color: #2e2e2e;
+   box-shadow: 0px 3px 4px black;
+  }
+
+   /*Sectin Weather*/
+
+   .weather{
+    
+    display: flex;
+    justify-content: center;
+    
+   }
+   .box{
+    background-color:#c9f7ff;
+    margin: 30px ;
+    padding: 20px;
+    box-shadow: 0px 0px 3px gray;
+    border-radius: 1rem;
+   }
+   .body-box ul{
+    list-style: none;
+   }
+   #icon{
+    float: right;
+   }
+   .head-box{
+    border-bottom: 1px solid black;
+   }
+   .body-box ul li{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   }
+   .cont{
+    color: #646464;
+    font-size: larger;
+    font-weight: bolder;
+   }
+ 
+/*section business*/
+.extrait{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}

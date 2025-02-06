@@ -8,13 +8,40 @@
     width: 98%;;
   }
 }
-@media screen and (max-width:1000px) {
+@media screen and (max-width:1200px) {
   .business{
     grid-template-columns: 1fr 1fr;
   }
   section{
     width: 100%;;
   }
+  .extrait{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .hero a{
+    right: 25%;
+    bottom: 45%;
+  }
+  .hero{
+    width: 95%;
+ 
+ 
+   }
+}
+@media screen and (max-width:900px) {
+  .hero a{
+    right: 25%;
+    bottom: 55%;
+  }
+  .weather{
+    display: grid;
+    grid-template-rows: 1fr;
+  }
+  .extrait{
+    grid-template-columns: 1fr;
+  }
+ 
 }
 @media screen and (max-width:750px) {
   .business{
