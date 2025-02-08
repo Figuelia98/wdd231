@@ -309,6 +309,10 @@ input, select, textarea {
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+.top{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
 .membership-cards {
     display: flex;
     flex-wrap: wrap;
@@ -316,20 +320,37 @@ input, select, textarea {
     margin-top: 20px;
 }
 .card {
-    background: #ddd;
+    display: flex;
+    flex-direction: column;
+    background:#adf4ff;
     padding: 15px;
+    margin: 15px;
     border-radius: 6px;
     width: 48%;
+    height: 70px;
+    box-shadow: 0px 0px 2px black;
     text-align: center;
     cursor: pointer;
     transition: transform 0.3s ease-in-out;
 }
+.card a{
+  background-color: #383849;
+  color: whitesmoke;
+  text-decoration: none;
+  border-radius: 1rem;
+
+}
 .card:hover {
     transform: scale(1.05);
+}
+.card:hover a{
+  background-color: #ffffff;
+  color: #1B1B1E;
 }
 .modal {
     display: none;
     position: fixed;
+    justify-items: center;
     top: 0;
     left: 0;
     width: 100%;
@@ -339,14 +360,21 @@ input, select, textarea {
     align-items: center;
 }
 .modal-content {
+    position: relative;
     background: white;
     padding: 20px;
     border-radius: 8px;
     text-align: center;
 }
 .close {
+    position: absolute;
+    right: 5px;
+    top: 2px;
     cursor: pointer;
     font-size: 20px;
+}
+.close:hover{
+  color: red;
 }
 
 fieldset{
@@ -370,4 +398,13 @@ input[type="submit"]:hover{
   font-weight: bolder;
   outline: 10px solid gray ;
   border-radius: 1rem;
+}
+@media screen and (max-width:800px) {
+  .top{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .membership-cards{
+    justify-content: center;
+  }
 }
