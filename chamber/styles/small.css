@@ -47,6 +47,19 @@
  
 }
 @media screen and (max-width:750px) {
+  .herohead{
+    font-size: large;
+   
+  }
+  .hero a{
+   
+    bottom:40%;
+  }
+  main h1{ 
+   
+    font-size: large;
+
+  }
   .business{
     grid-template-columns: 1fr;
   }
