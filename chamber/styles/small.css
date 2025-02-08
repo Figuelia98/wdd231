@@ -47,25 +47,67 @@
  
 }
 @media screen and (max-width:750px) {
+  .hero{
+    width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 30px;
+
+ 
+ 
+   }
+   .top{
+    width: 90%;
+    padding: 0px;
+   }
+   .bottom{
+    width: 80%;
+    margin: 0 auto;
+   }
+   .extrait{
+    width: 90%;
+    margin: 0px;
+  }
+  .weather{
+    width:90% ;
+    margin: 0px;
+  }
   .herohead{
     font-size: large;
    
   }
   .hero a{
-   
-    bottom:40%;
+   padding: 10px;
+   right: 19%;
+    bottom:60%;
   }
   main h1{ 
    
-    font-size: large;
-
+    font-size: small;
+    width: 80%;
+    display: inline;
   }
   .business{
     grid-template-columns: 1fr;
   }
   section{
-    width: 100%;;
+    width: 100%;
   }
+  .buss{
+    margin: 0px;
+    border-radius: 0.4rem;
+    box-shadow: 0px 0px 3px black;
+    margin-bottom: 20px;
+    
+  }
+  .box{
+   width: 80%;
+   margin-top: 20px;
+   }
+   .extrait{
+   justify-items: left;
+   }
+   .body-bo
   nav ul{
     display: block;
   }
@@ -87,6 +129,7 @@
   }
   
   .nav-menu::before {
+
     content: "";
     position: absolute;
     top: 0;

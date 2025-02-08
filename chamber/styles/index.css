@@ -155,10 +155,9 @@ footer{
     display: grid;
     grid-template-columns: 1fr;
   }
-  section{
+  .top{
     width: 90%;;
     margin: 0 auto;
-    padding: 15px;
   }
   h2 {
     text-align: center;
