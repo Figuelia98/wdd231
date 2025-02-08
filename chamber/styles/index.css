@@ -237,6 +237,7 @@ footer{
     text-shadow: 0px 0px 1px black;
     color: var(--secondary-color);
   }
+ 
   .head h3{
     font-size:medium ;
   }
@@ -301,7 +302,14 @@ footer{
 
   }
   .herohead{
-    font-size: 3vw;
+    font-size: 2vw;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #2C535A;
+  }
+  main h1{ 
+    text-align: center;
+    margin: 20px;
+    font-size: 2vw;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: #2C535A;
   }
