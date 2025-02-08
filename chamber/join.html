@@ -62,22 +62,22 @@
                 <legend>Personal informations</legend>
                 <label>
                     First name:
-                    <input type="text" name="firstName" title="firstName"  placeholder="Your first name" required>
+                    <input type="text" name="firstName" title="firstName"  autocomplete="given-name" placeholder="Your first name" required>
                 </label>
                 <label>
-                    Last name:
-                    <input type="text" name="lastName" title="lastName" placeholder="Your last name" required>
+                    Last name:"
+                    <input type="text" name="lastName" title="lastName" autocomplete="family-name" placeholder="Your last name" required>
                 </label>
             </fieldset>
               <fieldset>
                 <legend>Organization informations</legend>
                 <label>
                      Title:
-                    <input type="text" name="title" title="Title" autocomplete="title" pattern="[A-Za-z\-\s]{7,}" placeholder="Title" required>
+                    <input type="text" name="title" title="Title" autocomplete="organization-title" pattern="[A-Za-z\-\s]{7,}" placeholder="Title" required>
                 </label>
                 <label>
                     Name:
-                    <input type="text" name="name" title="name" autocomplete="name" placeholder="Organization name" required>
+                    <input type="text" name="name" title="name" autocomplete="organization" placeholder="Organization name" required>
                 </label>
                 <label>
                     Email:
