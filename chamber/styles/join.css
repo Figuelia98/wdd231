@@ -382,8 +382,10 @@ fieldset{
   border-radius: 0.2rem;
   margin-bottom: 20px;
 }
-.top  h1{
+main h1{
   text-align: center;
+  font-size: 3vw;
+  margin-top: 20px;
   margin-bottom: 20px;
 }
 input[type="submit"]{
