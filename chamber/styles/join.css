@@ -409,4 +409,13 @@ input[type="submit"]:hover{
   .membership-cards{
     justify-content: center;
   }
+  main h1{
+    text-align: center;
+    font-size: x-large;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  main h2{
+    font-size: larger;
+  }
 }
