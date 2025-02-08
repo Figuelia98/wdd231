@@ -11,7 +11,9 @@ const selectList = document.querySelector("#category")
 const makesearch = document.querySelector("#makesearch")
 const search = document.querySelector("#search")
 let datas ;
-
+document.getElementById('timestamp').value = new Date().toISOString();
+function openModal(id) { document.getElementById(id).style.display = 'block'; }
+function closeModal(id) { document.getElementById(id).style.display = 'none'; }
 function displaybusiness(business){
   business.forEach((busi)=>{
       container.innerHTML = container.innerHTML + ` <div class="buss">
