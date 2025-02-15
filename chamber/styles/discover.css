@@ -216,49 +216,19 @@ footer{
     color: var(--secondary-color);
     
   }
-  .business{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-  }
-  .buss{
-    margin: 50px;
-    display: grid;
-    grid-template-rows: auto 60% auto;
-    border-radius: 0.4rem;
-    box-shadow: 0px 0px 3px black;
-  }
-  .head{
-    background-color: var(--primary-color);
-    padding: 15px;
-    border-top-left-radius: 0.4rem;
-    border-top-right-radius: 0.4rem;
-   
-  }
-  .head h3,.head h4{
-    font-family:Arial, Helvetica, sans-serif;
-    text-shadow: 0px 0px 1px black;
-    color: var(--secondary-color);
-  }
-  .head h3{
-    font-size:medium ;
-  }
-  .head h4{
+ .card p{
+  text-align: center;
+  border-top: 1px solid rgb(150, 150, 150);
+  margin-bottom: 15px;
+  padding: 15px;
+  background-color: #d0e2f7;
   font-size: small;
+  font-weight: bolder;
+ 
 }
-  .foot{
-    padding: 10px;
-  }
-  .foot ul {
-   display: flex;
-   list-style: none;
-   justify-content: space-around;
-  }
-  .foot a{
-    text-decoration: none;
-    font-size: medium;
-    font-weight: 600;
-    color:#2C535A;
-  }
+ .card address{
+  text-align: center;
+}
   .text{
     font-size: x-small;
   }
@@ -283,3 +253,106 @@ footer{
   .socia ul li a:hover{
     opacity: 0.7;
   }
+  .modal {
+    display: none;
+    position: fixed;
+    justify-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+.modal-content {
+    position: relative;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+.second-contenair {
+
+  display: grid;
+  gap: 50px;
+  padding: 20px;
+}
+.card {
+  margin: 10px;
+  grid-template-rows: auto 60% auto;
+  border-radius: 0.4rem;
+  box-shadow: 0px 0px 3px black;
+  background: #f4f4f4;
+  border-radius: 5px;
+  transition: transform 0.3s;
+}
+.card h2{
+  padding: 10px;
+}
+.card a{
+  text-decoration: none;
+}
+.card button{
+  background-color: var(--primary-color);
+  color:black;
+  font-size: large;
+  display: block;
+  border-radius: 0.5rem;
+  width: 60%;
+  box-shadow: 0px 0px 3px black;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  transition: transform 1s;
+}
+.card button:hover{
+
+ background-color: #04aec9;
+ color: white;
+}
+.card figure img {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 0.3rem;
+  border-top-right-radius: 0.3rem;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+
+@media (max-width: 640px) {
+  section h2{
+    font-size: medium;
+  }
+    .second-contenair {
+      gap: 0px;
+      justify-items: center;
+        grid-template-areas: 
+            "card1"
+            "card2"
+            "card3"
+            "card4"
+            "card5"
+            "card6"
+            "card7"
+            "card8";
+    }
+}
+@media (min-width: 641px) and (max-width: 1024px) {
+    .second-contenair {
+      grid-template-areas: 
+      "card1 card2"
+      "card3 card4" 
+      "card5 card6"
+      "card7 card8";
+
+    }
+}
+@media (min-width: 1025px) {
+    .second-contenair {
+      grid-template-areas: 
+      "card1 card2 card3"
+      "card4 card5 card6"
+      "card7 card8 card9";
+    }
+}
