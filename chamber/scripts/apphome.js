@@ -54,7 +54,7 @@ function displaybusiness(business){
         
       });
   }
-  fetch('scripts/members.json')
+  fetch('data/members.json')
 .then(response => {
   if (!response.ok) {
     throw new Error(`HTTP error! status: ${response.status}`);

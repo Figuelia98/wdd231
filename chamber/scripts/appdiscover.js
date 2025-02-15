@@ -55,7 +55,8 @@ fetch('data/interestes.json')
 
 document.addEventListener("DOMContentLoaded", () => {
   const visitorMessage = document.getElementById("visitor-message");
-  const lastVisit = localStorage.getItem("lastVisit");
+  const lastVisit = localStorage.getItem("lastVisit")
+  const nmodal = document.querySelector("#nmodal")
   const now = Date.now();
 
   if (!lastVisit) {
@@ -68,5 +69,8 @@ document.addEventListener("DOMContentLoaded", () => {
           visitorMessage.textContent = `You last visited ${daysDifference} ${daysDifference === 1 ? "day" : "days"} ago.`;
       }
   }
+  nmodal.style.display = "block"
+
   localStorage.setItem("lastVisit", now);
+
 });

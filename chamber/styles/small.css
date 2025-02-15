@@ -82,10 +82,7 @@
     bottom:60%;
   }
   main h1{ 
-   
-    font-size: small;
-    width: 80%;
-    display: inline;
+   font-size: medium;
   }
   .business{
     grid-template-columns: 1fr;

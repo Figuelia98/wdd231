@@ -84,10 +84,15 @@ header{
   width: 110px;
   height: 70px;
 }
-h1{
+header h1{
     display: grid;
     grid-template-columns: 1fr;
     color: var(--secondary-color);
+}
+main h1{
+  text-align: center;
+  margin: 10px;
+  font-size: 1.5vw;
 }
 .title{
     font-weight: 600;
@@ -196,6 +201,16 @@ footer{
     border: none;
     height: 45px;
   }
+  .close {
+    position: absolute;
+    right: 5px;
+    top: 2px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.close:hover{
+  color: red;
+}
   .search select{
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
@@ -257,8 +272,7 @@ footer{
     display: none;
     position: fixed;
     justify-items: center;
-    top: 0;
-    left: 0;
+    place-content: center;
     width: 100%;
     height: 100%;
     background: rgba(0, 0, 0, 0.5);
@@ -339,6 +353,11 @@ footer{
     }
 }
 @media (min-width: 641px) and (max-width: 1024px) {
+  main h1{
+    text-align: center;
+    margin: 10px;
+    font-size: 2vw;
+  }
     .second-contenair {
       grid-template-areas: 
       "card1 card2"
