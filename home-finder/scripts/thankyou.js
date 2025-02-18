@@ -9,7 +9,7 @@ document.getElementById('first_name').textContent = params.get('firstName');
 document.getElementById('last_name').textContent = params.get('lastName');
 document.getElementById('email').textContent = params.get('email');
 document.getElementById('mobile').textContent = params.get('phone');
-document.getElementById('organization').textContent = params.get('name');
+document.getElementById('city').textContent = params.get('name');
 document.getElementById('timestamp').textContent = params.get('timestamp');
 
 const mode = document.querySelector(".mode")
