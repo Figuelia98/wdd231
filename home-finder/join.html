@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Figuelia Ya'Sin">
+    <meta name="description" content="WDD231: Home-Finder project by Figuelia Ya'Sin">
+    <meta property="og:title" content="Home Finder project" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://figuelia98.github.io/wdd231/home-finder/directory.html" />
+    <meta property="og:image" content="https://www.office-du-tourisme-diego-suarez.com/wp-content/uploads/2024/06/Montagne-des-francais-Couverture_office-regional-du-tourisme-diego-suarez.webp" />
+    <link rel="stylesheet" href="styles/join.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/fontawesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/solid.min.css">
+    <script defer src="scripts/appjoin.js"></script>
+    <title>Madirez | Subscription </title>
+</head>
+<body>
+    <header>
+        <div class="logotitle">
+            <img src="images/logo1.png" alt="logo">
+            <h1><span class="title">Home-Finder</h1>
+        </div>
+      <input type="checkbox" id="burger-toggle">
+      <label for="burger-toggle" class="burger-container">
+       <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      <span class="burger-line"></span>
+      </label>
+        <nav class="nav-menu">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                  
+                </li>
+                <li>
+                    <a href="houses.html">Houses</a>
+                </li>
+                <li>
+                    
+                    <a href="join.html">Join</a>
+                </li>
+                 <li>
+                    <button class="mode"><i class="fa-solid fa-circle-half-stroke"></i></button>
+                 </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>House owner? join now to find customer easely</h1>
+   <section class="top">
+    <div class="container">
+        <h2>Join</h2>
+        <div>
+           
+            <form action="thankyou.html" method="get">
+                <fieldset>
+                    <legend>Personal informations</legend>
+                    <label>
+                        First name:
+                        <input type="text" name="firstName" title="firstName"  autocomplete="given-name" placeholder="Your first name" required>
+                    </label>
+                    <label>
+                        Last name:
+                        <input type="text" name="lastName" title="lastName" autocomplete="family-name" placeholder="Your last name" required>
+                    </label>
+                </fieldset>
+                  <fieldset>
+                    <legend>Address informations</legend>
+                    <label>
+                         Address Line:
+                        <input type="text" name="address" title="address" autocomplete="organization-title" placeholder="Address Line" required>
+                    </label>
+                    <label>
+                        City:
+                       <select name="cits" id="cits">
+
+                        <option value="Antsiranana">Antsiranana</option>
+                        <option value="Mahajanga">Mahajanga</option>
+                        <option value="Toamasina">Toamasina</option>
+                        <option value="Antananarivo">Antananarivo</option>
+                        <option value="Fianarantsoa">Fianarantsoa</option>
+                        <option value="Antsiranana">Antsiranana</option>
+
+                       </select>
+                    </label>
+                    <label>
+                        Email:
+                        <input type="email" name="email" title="email" autocomplete="email" placeholder="Email" required>
+                    </label>
+                    <label>
+                        Phone:
+                        <input type="tel" name="phone" title="phone" autocomplete="tel" placeholder="Example: +261 32 95 728 54 " required>
+                    </label>
+                    <input type="hidden" name="timestamp" id="timestamp">
+    
+                  </fieldset>
+                
+                <input type="submit" value="Join">
+    
+    
+            </form>
+
+        </div>
+     
+        
+    </div>
+   </section>
+    </main>
+    <footer>
+        <div class="addre">
+             <ul>
+                 <li><h2>Madirez Chamber of Commerce</h2></li>
+                 <li>201 Rue Colbert, Antsiranana, Madagascar</li>
+                 <li>contact@madirez.com</li>
+                 <li>+261 32 97 728 54</li>
+             </ul>
+        </div>
+        <div class="socia">
+           <ul>
+            <li> <a href="https://www.facebook.com/figuelia.yasin.9"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.facebook.com/figuelia.yasin.9"><i class="fa-brands fa-youtube"></i></a></li>
+            <li> <a href="https://www.facebook.com/figuelia.yasin.9"><i class="fa-brands fa-linkedin"></i></a></li>
+
+           </ul>
+        </div>
+        <div class="modif">
+            <ul>
+                <li>WDD231 Class Project</li>
+                <li>Figuelia Ya'Sin</li>
+                <li><p>Copyright &copy; <span id="currentyear"></span> Madirez Chamber of Commerce </p></li>
+                <li> <p id="lastModified"></p></li>
+            </ul>
+        </div>
+        
+    </footer>
+</body>
+</html>
