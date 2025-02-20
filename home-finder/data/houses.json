@@ -9,7 +9,7 @@
     "phone":" +261 32 81 274 69",
     "status":"Avalaible",
     "city": "Antsiranana",
-    "image": "images/antsi1.jpg"
+    "image": "images/antsi1.webp"
     },
     { "type":"Villa F3 vue sur mer",
     "tarif": "500",
@@ -21,7 +21,7 @@
     "phone":" +261 32 81 274 69",
     "status":"Avalaible",
     "city": "Antsiranana",
-    "image": "images/antsi2.jpg"
+    "image": "images/antsi2.webp"
     },
     { "type":"Villa F5 avec sur Pain de Sucre",
     "tarif": "750",
@@ -33,7 +33,7 @@
     "phone":" +261 32 81 274 69",
     "status":"Avalaible",
     "city": "Antsiranana",
-    "image": "images/antsi3.jpg"
+    "image": "images/antsi3.webp"
     }, 
     { "type":"Villa F5 avec Piscine",
     "tarif": "1 750",
@@ -45,7 +45,7 @@
     "phone":" +261 32 66 256 69",
     "status":"Avalaible",
     "city": "Mahajanga",
-    "image": "images/maha1.jpg"
+    "image": "images/maha1.webp"
     },  
     { "type":"Villa F4",
     "tarif": "1 250",
@@ -57,7 +57,7 @@
     "phone":" +261 32 66 256 69",
     "status":"Avalaible",
     "city": "Mahajanga",
-    "image": "images/maha2.jpg"
+    "image": "images/maha2.webp"
     }, 
     { "type":"Villa F4",
     "tarif": "1 000",
@@ -69,7 +69,7 @@
     "phone":" +261 32 66 256 69",
     "status":"Avalaible",
     "city": "Mahajanga",
-    "image": "images/maha3.jpg"
+    "image": "images/maha3.webp"
     }, 
     { "type":"Villa F4",
     "tarif": "650",
@@ -81,7 +81,7 @@
     "phone":" +261 32 77 156 69",
     "status":"Avalaible",
     "city": "Toamasina",
-    "image": "images/tama1.jpg"
+    "image": "images/tama1.webp"
     }, 
     { "type":"Villa F4",
     "tarif": "750",
@@ -93,7 +93,7 @@
     "phone":" +261 32 77 156 69",
     "status":"Avalaible",
     "city": "Toamasina",
-    "image": "images/tama2.jpg"
+    "image": "images/tama2.webp"
     }, 
     { "type":"Villa F5",
     "tarif": "750",
@@ -105,7 +105,7 @@
     "phone":" +261 32 77 156 69",
     "status":"Avalaible",
     "city": "Toamasina",
-    "image": "images/tama3.jpg"
+    "image": "images/tama3.webp"
     }
     ,{ "type":"Villa F5 Etage",
     "tarif": "1 850",
@@ -117,7 +117,7 @@
     "phone":" +261 32 55 056 69",
     "status":"Avalaible",
     "city": "Antananarivo",
-    "image": "images/tana1.jpg"
+    "image": "images/tana1.webp"
     }, 
     { "type":"Villa F5 Etage",
     "tarif": "1 550",
@@ -129,7 +129,7 @@
     "phone":" +261 32 55 056 69",
     "status":"Avalaible",
     "city": "Antananarivo",
-    "image": "images/tana2.jpg"
+    "image": "images/tana2.webp"
     } 
     ,{ "type":"Villa F5 Etage",
     "tarif": "1 350",
@@ -141,7 +141,7 @@
     "phone":" +261 32 55 056 69",
     "status":"Avalaible",
     "city": "Antananarivo",
-    "image": "images/tana3.jpg"
+    "image": "images/tana3.webp"
     }
     ,{ "type":"Villa F5 Etage",
     "tarif": "1 950",
@@ -153,7 +153,7 @@
     "phone":" +261 32 44 056 69",
     "status":"Avalaible",
     "city": "Fianarantsoa",
-    "image": "images/fiana1.jpg"
+    "image": "images/fiana1.webp"
     }
     ,{"type":"Villa F5 Etage",
     "tarif": "1 850",
@@ -165,7 +165,7 @@
     "phone":" +261 32 44 056 69",
     "status":"Avalaible",
     "city": "Fianarantsoa",
-    "image": "images/fiana2.jpg"
+    "image": "images/fiana2.webp"
     }
     ,{ "type":"Villa F5 Etage",
     "tarif": "1 700",
@@ -177,7 +177,7 @@
     "phone":" +261 32 44 056 69",
     "status":"Avalaible",
     "city": "Fianarantsoa",
-    "image": "images/fiana3.jpg"
+    "image": "images/fiana3.webp"
     }
     ,{ "type":"Villa F5 Etage",
     "tarif": "1 400",
@@ -189,7 +189,7 @@
     "phone":" +261 32 22 056 69",
     "status":"Avalaible",
     "city": "Toliara",
-    "image": "images/toli1.jpg"
+    "image": "images/toli1.webp"
     }
     ,{ "type":"Villa F5 ",
     "tarif": "600",
@@ -201,7 +201,7 @@
     "phone":" +261 32 22 056 69",
     "status":"Avalaible",
     "city": "Toliara",
-    "image": "images/toli2.jpg"
+    "image": "images/toli2.webp"
     }
     ,{ "type":"Villa F4 ",
     "tarif": "400",
@@ -213,6 +213,6 @@
     "phone":" +261 32 22 056 69",
     "status":"Avalaible",
     "city": "Toliara",
-    "image": "images/toli3.jpg"
+    "image": "images/toli3.webp"
     }
   ]

@@ -182,8 +182,11 @@ document.addEventListener("DOMContentLoaded", () => {
   } else {
       const daysDifference = Math.floor((now - lastVisit) / (1000 * 60 * 60 * 24));
 
-       if(daysDifference > 1) {
+       if(daysDifference < 1) {
           visitorMessage.textContent = "It is a pleasure to have you again";
+      }
+      else{
+         visitorMessage.textContent ="Welcome again";
       }
   }
   nmodal.style.display = "block"
