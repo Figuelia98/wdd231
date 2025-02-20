@@ -17,7 +17,7 @@ function displaybusiness(houses){
       container.innerHTML = container.innerHTML + ` <div class="house">
        <div class="body">
         <figure>
-         <img src="${house.image}" alt="${house.type}">
+         <img src="${house.image}" alt="${house.type}" loading = "lazy">
         <figcaption>${house.type}: ${house.tarif} $ / month</figcaption>
         </figure>
        

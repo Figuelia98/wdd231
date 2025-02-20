@@ -78,26 +78,22 @@
       display: flex;
       justify-content: space-between;
   }
-  .logotitle{
-      padding: 15px;
-      display: flex;
-  }
   .logotitle img{
-    width: 110px;
+    width: 70px;
+    border-radius: 50%;
     height: 70px;
   }
-  h1{
+  .title{
+      font-weight: 200;
+      font-family:fantasy;
+      font-size: x-large;
+  }
+ main h1{
       display: grid;
       grid-template-columns: 1fr;
       color: var(--secondary-color);
   }
-  .title{
-      font-weight: 600;
-  }
-  .sous-title{
-      font-size: medium;
-      
-  }
+
   .nav-menu {
       padding: 10px;
   }
@@ -178,6 +174,9 @@
       text-decoration: none;
       color: #2C535A;
     }
+    .modif{
+      text-align: right;
+     }
     .search{
     border-radius: 1rem;
     width: 50%;

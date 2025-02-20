@@ -33,7 +33,7 @@ function displaybusiness(houses){
       container.innerHTML = container.innerHTML + ` <div class="house">
        <div class="body">
         <figure>
-         <img src="${house.image}" alt="${house.type}">
+         <img src="${house.image}" alt="${house.type}" loading="lazy">
         <figcaption>${house.type}: ${house.tarif} $ / month</figcaption>
         </figure>
        
@@ -167,5 +167,27 @@ icon2.src = `http://openweathermap.org/img/wn/${data["weather"][0].icon}@2x.png`
     console.error("Error fetching weather data:", error);
   }
 }
-
+function openModal(id) { document.getElementById(id).style.display = 'block'; }
+function closeModal(id) { document.getElementById(id).style.display = 'none'; }
 getWeather();
+
+document.addEventListener("DOMContentLoaded", () => {
+  const visitorMessage = document.getElementById("visitor-message");
+  const lastVisit = localStorage.getItem("lastVisit")
+  const nmodal = document.querySelector("#nmodal")
+  const now = Date.now();
+ console.log(lastVisit)
+  if (!lastVisit) {
+      visitorMessage.textContent = "Welcome to the best platform for seaching home to rend";
+  } else {
+      const daysDifference = Math.floor((now - lastVisit) / (1000 * 60 * 60 * 24));
+
+       if(daysDifference > 1) {
+          visitorMessage.textContent = "It is a pleasure to have you again";
+      }
+  }
+  nmodal.style.display = "block"
+
+  localStorage.setItem("lastVisit", now);
+
+});
